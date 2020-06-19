@@ -3,9 +3,9 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
-	"engine":{
-		"node":"12.18.1",
-		"npm":"6.14.5"
+	"engine": {
+		"node": "12.18.1",
+		"npm": "6.14.5"
 	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
@@ -14,15 +14,17 @@
 		"dotenv": "^5.0.1",
 		"express": "^4.16.3",
 		"jsonwebtoken": "^8.2.1",
-		"mongoose": "^5.0.15"
+		"mongoose": "^5.0.15",
+		"react-scripts": "^3.4.1",
+		"yargs-parser": "^18.1.3"
 	},
 	"scripts": {
 		"start": "node index.js",
 		"seed": "node seed.js",
-		"build":"cd client && npm install",
-		"install-client":"cd client && npm run build",
-		"heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm run install-client && npm run build",
-		"client":"cd client  && npm start"
+		"build": "cd client && npm install",
+		"install-client": "cd client && npm run build",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install-client && npm run build",
+		"client": "cd client  && npm start"
 	},
 	"devDependencies": {
 		"nodemon": "^1.17.3"

@@ -13,8 +13,12 @@
 		"mongoose": "^5.0.15"
 	},
 	"scripts": {
-		"start": "nodemon index.js",
-		"seed": "node seed.js"
+		"start": "node index.js",
+		"seed": "node seed.js",
+		"build":"cd client && npm install",
+		"install-client":"cd client && npm run build",
+		"heroku-postbuild":"npm run install-client && npm run build",
+		"client":"cd client  && npm start"
 	},
 	"devDependencies": {
 		"nodemon": "^1.17.3"

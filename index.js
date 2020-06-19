@@ -23,4 +23,6 @@ app.use((req, res, next) => {
 });
 app.use(handle.error);
 
+app.use(express.static('./client/build'))
+
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));

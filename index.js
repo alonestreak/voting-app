@@ -22,7 +22,7 @@ app.use((req, res, next) => {
   next(err);
 });
 app.use(handle.error);
-
+if (process.env.NODE_ENV==='production'){
 app.use(express.static('./client/build'))
-
+}
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));

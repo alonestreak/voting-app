@@ -11,3 +11,5 @@ mongoose
 bcrypt
 jsonwebtoken
 react
+
+![alt text](https://github.com/[alonestreak]/[voting-app]/blob/[master]/image.jpg?raw=true)

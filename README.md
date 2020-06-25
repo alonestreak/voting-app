@@ -11,5 +11,25 @@ mongoose
 bcrypt
 jsonwebtoken
 react
+<p align="center">
+  <img src="Screenshot (114).png" width="350" title="hover text">
+</p>
 
-![alt text](https://github.com/[alonestreak]/[voting-app]/blob/[master]/image.jpg?raw=true)
+<p align="center">
+  <img src="Screenshot (115).png" width="350" title="hover text">
+</p>
+
+<p align="center">
+  <img src="Screenshot (116).png" width="350" title="hover text">
+</p>
+
+<p align="center">
+  <img src="Screenshot (117).png" width="350" title="hover text">
+</p>
+
+<p align="center">
+  <img src="Screenshot (118).png" width="350" title="hover text">
+</p>
+
+
+
